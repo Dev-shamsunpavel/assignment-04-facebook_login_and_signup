@@ -1,0 +1,116 @@
+/* CSS font link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.container {
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-class {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+}
+
+.left h1 {
+    font-size: 48px;
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.left h2 {
+    font-size: 24px;
+    color: #1c1e21;
+    font-weight: normal;
+}
+
+.right {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.terms {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.terms a {
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: #dddfe2;
+    margin: 10px 0;
+}
+
+.create-account-button {
+    background-color: #42b72a;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.create-account-button a{
+    text-decoration: none;
+    color: white;
+}
